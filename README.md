@@ -31,21 +31,6 @@ Alternative Setup:
 - Install requirements manually: pip install numpy matplotlib qiskit qiskit-aer jupyter networkx scipy
 - Run the notebook: jupyter notebook distributed_quantum_error_correction.ipynb
 
-## Project Structure
-
-distributed-surface-codes/
-├── distributed_quantum_error_correction.ipynb  # Main research notebook
-├── requirements.txt                            # Python dependencies  
-├── README.md                                   # Project documentation
-└── src/                                        # Implementation modules
-    ├── __init__.py                            # Package initialization
-    ├── surface_code_33.py                     # 3×3 surface code implementation
-    ├── error_correction.py                    # Classical error correction
-    ├── quantum_surface_code.py               # Quantum simulation framework
-    ├── distributed_architecture.py           # Distributed system modeling
-    ├── mwmp_decoder.py                       # Minimum weight perfect matching
-    └── threshold_analysis.py                 # Monte Carlo threshold analysis
-
 ## Research Overview
 
 This study addresses fundamental questions in distributed quantum computing:
@@ -93,13 +78,7 @@ Core Requirements:
 3. Run all cells: Execute from top to bottom for complete analysis
 4. View results: Observe threshold analysis plots and quantified metrics
 
-## Research Validation
-
-Framework demonstrates:
-- Reproducible results with statistical rigor
-- Quantum-classical comparison capabilities
-- Professional research methodology with proper validation
-- Extensible analysis for larger distributed systems
 
 
 This work establishes quantitative foundations for distributed quantum computing architecture design.
+
